@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maribel's Corner Cafe — Warm coffee, warmer welcomes</title>
+<meta name="description" content="Maribel's Corner Cafe: a cozy neighborhood coffee shop. Come in from the cold, stay for a while.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">☕</span>
+      <span class="brand-name">Maribel's Corner Cafe</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#hours">Hours</a>
+      <a href="#location">Location</a>
+      <a href="#loyalty" class="nav-cta">Join the Club</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Est. on the corner of 5th &amp; Maple</p>
+      <h1>A little corner of warm.</h1>
+      <p class="hero-sub">Slow mornings, good coffee, and a seat that's always yours. Come sit a while.</p>
+      <div class="hero-actions">
+        <a href="#loyalty" class="btn btn-primary">Join our Loyalty Club</a>
+        <a href="#menu" class="btn btn-ghost">See the menu</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="wrap about-inner">
+      <h2>Our Story</h2>
+      <p>Maribel opened this little shop in her grandmother's old storefront because she believed a neighborhood needs a place to gather — no rush, no pretense, just good coffee and familiar faces. Every cup is poured by someone who knows your name (or is about to). We roast small batches, bake fresh every morning, and keep the porch light on for regulars and newcomers alike.</p>
+    </div>
+  </section>
+
+  <section id="menu" class="section menu">
+    <div class="wrap">
+      <h2>A Few Favorites</h2>
+      <p class="section-sub">Just a taste of what's on the counter — the full menu changes with the seasons.</p>
+      <div class="menu-grid">
+        <article class="menu-card">
+          <span class="menu-icon">☕</span>
+          <h3>Maribel's House Blend</h3>
+          <p>Smooth, nutty, a little sweet — our signature roast, brewed fresh all day.</p>
+        </article>
+        <article class="menu-card">
+          <span class="menu-icon">🥐</span>
+          <h3>Honey Butter Croissant</h3>
+          <p>Baked at dawn, flaky and golden, drizzled with local honey butter.</p>
+        </article>
+        <article class="menu-card">
+          <span class="menu-icon">🍂</span>
+          <h3>Cinnamon Maple Latte</h3>
+          <p>Our fall favorite, year-round — espresso, real maple, a whisper of cinnamon.</p>
+        </article>
+        <article class="menu-card">
+          <span class="menu-icon">🥪</span>
+          <h3>Garden Grilled Cheese</h3>
+          <p>Sharp cheddar and market veggies on sourdough, grilled till golden.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="hours" class="section hours">
+    <div class="wrap hours-inner">
+      <div class="hours-card">
+        <h2>Hours</h2>
+        <ul class="hours-list">
+          <li><span>Monday – Friday</span><span>6:30am – 6:00pm</span></li>
+          <li><span>Saturday</span><span>7:00am – 6:00pm</span></li>
+          <li><span>Sunday</span><span>8:00am – 3:00pm</span></li>
+        </ul>
+        <p class="hours-note">Holiday hours posted on the door (and usually forgotten to update here — call ahead!).</p>
+      </div>
+      <div id="location" class="location-card">
+        <h2>Find Us</h2>
+        <p class="location-address">
+          214 Maple Street<br>
+          Elmridge, OH 44011
+        </p>
+        <p class="location-note">Corner spot, red awning, string lights out front. Street parking, plus a little lot around back.</p>
+        <a class="btn btn-ghost btn-small" href="https://maps.google.com/?q=214+Maple+Street+Elmridge+OH+44011" target="_blank" rel="noopener">Get Directions</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="loyalty" class="section loyalty">
+    <div class="wrap loyalty-inner">
+      <h2>Join the Corner Club</h2>
+      <p>Sign up with your email for a free drink on your birthday, first dibs on seasonal specials, and the occasional surprise on the house.</p>
+      <form class="signup-form" id="signup-form">
+        <label for="email" class="sr-only">Email address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <button type="submit" class="btn btn-primary">Sign me up</button>
+      </form>
+      <p class="signup-message" id="signup-message" role="status"></p>
+      <p class="loyalty-fine">No spam, ever — just coffee news and the occasional free pastry.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>&copy; 2026 Maribel's Corner Cafe. Made with love on the corner of 5th &amp; Maple.</p>
+    <p class="footer-sub">(216) 555-0142 &middot; hello@maribelscornercafe.com</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
