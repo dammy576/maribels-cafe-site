@@ -106,9 +106,11 @@
     <div class="wrap loyalty-inner">
       <h2>Join the Corner Club</h2>
       <p>Sign up with your email for a free drink on your birthday, first dibs on seasonal specials, and the occasional surprise on the house.</p>
-      <form class="signup-form" id="signup-form">
+      <form class="signup-form" id="signup-form" action="https://formspree.io/f/mvzekeny" method="POST">
         <label for="email" class="sr-only">Email address</label>
         <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <input type="hidden" name="_subject" value="New Corner Club signup">
+        <input type="text" name="_gotcha" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
         <button type="submit" class="btn btn-primary">Sign me up</button>
       </form>
       <p class="signup-message" id="signup-message" role="status"></p>

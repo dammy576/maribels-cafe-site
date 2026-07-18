@@ -65,6 +65,10 @@ img {
   border: 0;
 }
 
+.hp-field {
+  display: none;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
